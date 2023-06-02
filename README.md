@@ -44,16 +44,44 @@ A0 = Y7 + Y5 + Y3 + Y1 <br>
 
 
 ## Program:
-
-
+~~~
+Developed by : M vivek reddy
+Reg no: 212221240030
+~~~
+## Encoder
+```
+module exp8(a,b,c,d0,d1,d2,d3,d4,d5,d6,d7);
+output a,b,c;
+input d0,d1,d2,d3,d4,d5,d6,d7;
+or(a,d4,d5,d6,d7);
+or(b,d2,d3,d6,d7);
+or(c,d1,d3,d5,d7);
+endmodule
+```
 ## RTL Schematic:
-
-
-
-
+![image](https://github.com/Vivekreddy8360/encoder-decoder/assets/94525701/ffdb81f4-e7ac-4cd3-8cea-b37f447e3fde)
 ## Timing Diagram:
-
-
-
+![image](https://github.com/Vivekreddy8360/encoder-decoder/assets/94525701/f2715160-0c30-4ab4-ad69-ad0f5d2ad820)
+![image](https://github.com/Vivekreddy8360/encoder-decoder/assets/94525701/cdeda4e1-9983-4b18-903b-954fb560e39a)
+![image](https://github.com/Vivekreddy8360/encoder-decoder/assets/94525701/da8888e4-eb91-4f26-8b14-8360dd9d6c6a)
+## Decoder
+```
+module dec(d0,d1,d2,d3,d4,d5,d6,d7,a,b,c);
+output d0,d1,d2,d3,d4,d5,d6,d7;
+input a,b,c;
+assign d0=(~a & ~b & ~c) ;
+assign d1=(~a & ~b &c);
+assign d2=(~a & b &~c);
+assign d3=(~a & b &c);
+assign d4=(a &~b&~c);
+assign d5=(a &~b&c);
+assign d6=(a&b&~c);
+assign d7=(a&b&c);
+endmodule
+```
+## RTL Schematic:
+![image](https://github.com/Vivekreddy8360/encoder-decoder/assets/94525701/51c095e9-41e3-4492-ab85-9d98b3410114)
+## Timing Diagram:
+![image](https://github.com/Vivekreddy8360/encoder-decoder/assets/94525701/e5eb7845-3663-4e23-bcdf-c9604d979419)
 ## Result:
 Thus the decoder and encoder circuits are designed and implemented and the truth tables are verified.
