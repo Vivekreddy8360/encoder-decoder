@@ -61,9 +61,8 @@ endmodule
 ## RTL Schematic:
 ![image](https://github.com/Vivekreddy8360/encoder-decoder/assets/94525701/ffdb81f4-e7ac-4cd3-8cea-b37f447e3fde)
 ## Timing Diagram:
-![image](https://github.com/Vivekreddy8360/encoder-decoder/assets/94525701/f2715160-0c30-4ab4-ad69-ad0f5d2ad820)
-![image](https://github.com/Vivekreddy8360/encoder-decoder/assets/94525701/cdeda4e1-9983-4b18-903b-954fb560e39a)
-![image](https://github.com/Vivekreddy8360/encoder-decoder/assets/94525701/da8888e4-eb91-4f26-8b14-8360dd9d6c6a)
+![image](https://github.com/Vivekreddy8360/encoder-decoder/assets/94525701/3a70f319-dc23-4c02-b21b-c042e2f854dc)
+
 ## Decoder
 ```
 module dec(d0,d1,d2,d3,d4,d5,d6,d7,a,b,c);
@@ -82,6 +81,7 @@ endmodule
 ## RTL Schematic:
 ![image](https://github.com/Vivekreddy8360/encoder-decoder/assets/94525701/51c095e9-41e3-4492-ab85-9d98b3410114)
 ## Timing Diagram:
-![image](https://github.com/Vivekreddy8360/encoder-decoder/assets/94525701/e5eb7845-3663-4e23-bcdf-c9604d979419)
+![image](https://github.com/Vivekreddy8360/encoder-decoder/assets/94525701/ddfae12d-4709-4fee-a229-10fcacfabb76)
+
 ## Result:
 Thus the decoder and encoder circuits are designed and implemented and the truth tables are verified.
